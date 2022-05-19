@@ -6,5 +6,8 @@ public class SomeTypes {
 
         boolean isThisTrue = true;
         boolean isThisFalse = false;
+
+        String someString = "this is a string with an unicode \u00A9";
+        System.out.println(someString);
     }
 }
